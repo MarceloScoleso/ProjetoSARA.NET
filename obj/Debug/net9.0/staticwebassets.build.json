@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "zpHa94GlX03nmmLZRywF/0k2anCfxf1sf9GD8fHdKWk=",
+  "Source": "ProjetoSARA.NET",
+  "BasePath": "_content/ProjetoSARA.NET",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjetoSARA.NET\\wwwroot",
+      "Source": "ProjetoSARA.NET",
+      "ContentRoot": "C:\\Users\\ticoj\\ProjetoSARA.NET\\wwwroot\\",
+      "BasePath": "_content/ProjetoSARA.NET",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

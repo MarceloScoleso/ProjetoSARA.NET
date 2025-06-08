@@ -1,0 +1,29 @@
+@page
+@model ProjetoSara.Pages.UsuariosModel
+@{
+    ViewData["Title"] = "Lista de Usuários";
+}
+
+<h2>Lista de Usuários</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>CPF</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.Usuarios)
+        {
+            <tr>
+                <td>@usuario.Id</td>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Cpf</td>
+            </tr>
+        }
+    </tbody>
+</table>

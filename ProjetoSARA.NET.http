@@ -1,0 +1,6 @@
+@ProjetoSARA.NET_HostAddress = http://localhost:5203
+
+GET {{ProjetoSARA.NET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
